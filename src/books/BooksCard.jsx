@@ -47,7 +47,7 @@ export default function BooksCard({ bookData, onFav }) {
 					{bookData?.isFavorite ? (
 						<button
 							onClick={() => onFav(bookData.id)}
-							className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#a13678]/[14%] text-[#a13678] py-1.5 transition-all hover:bg-[#1C4336]/[24%] lg:py-1.5"
+							className="flex min-w-[132px] items-center justify-center gap-1 rounded-md bg-[#DC2954]/[14%] text-[#DC2954] py-1.5 transition-all hover:bg-[#DC2954]/[24%] lg:py-1.5"
 						>
 							<FaHeart />
 							Favourite
